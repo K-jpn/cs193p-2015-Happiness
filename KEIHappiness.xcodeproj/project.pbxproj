@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63010B161BE498D6006C1FE5 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63010B151BE498D6006C1FE5 /* HappinessViewController.swift */; };
+		63010B181BE498E5006C1FE5 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63010B171BE498E5006C1FE5 /* FaceView.swift */; };
 		63CDB3B11BE1D04400000410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CDB3B01BE1D04400000410 /* AppDelegate.swift */; };
-		63CDB3B31BE1D04400000410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CDB3B21BE1D04400000410 /* ViewController.swift */; };
 		63CDB3B61BE1D04400000410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CDB3B41BE1D04400000410 /* Main.storyboard */; };
 		63CDB3B81BE1D04400000410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CDB3B71BE1D04400000410 /* Assets.xcassets */; };
 		63CDB3BB1BE1D04400000410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CDB3B91BE1D04400000410 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63010B151BE498D6006C1FE5 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		63010B171BE498E5006C1FE5 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		63CDB3AD1BE1D04400000410 /* KEIHappiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KEIHappiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CDB3B01BE1D04400000410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63CDB3B21BE1D04400000410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63CDB3B51BE1D04400000410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63CDB3B71BE1D04400000410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CDB3BA1BE1D04400000410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63010B191BE4991F006C1FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63CDB3B91BE1D04400000410 /* LaunchScreen.storyboard */,
+				63CDB3BC1BE1D04400000410 /* Info.plist */,
+				63CDB3B71BE1D04400000410 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		63CDB3A41BE1D04400000410 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				63CDB3B01BE1D04400000410 /* AppDelegate.swift */,
-				63CDB3B21BE1D04400000410 /* ViewController.swift */,
 				63CDB3B41BE1D04400000410 /* Main.storyboard */,
-				63CDB3B71BE1D04400000410 /* Assets.xcassets */,
-				63CDB3B91BE1D04400000410 /* LaunchScreen.storyboard */,
-				63CDB3BC1BE1D04400000410 /* Info.plist */,
+				63010B151BE498D6006C1FE5 /* HappinessViewController.swift */,
+				63010B171BE498E5006C1FE5 /* FaceView.swift */,
+				63010B191BE4991F006C1FE5 /* Supporting Files */,
 			);
 			path = KEIHappiness;
 			sourceTree = "<group>";
@@ -256,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63CDB3B31BE1D04400000410 /* ViewController.swift in Sources */,
+				63010B161BE498D6006C1FE5 /* HappinessViewController.swift in Sources */,
 				63CDB3B11BE1D04400000410 /* AppDelegate.swift in Sources */,
+				63010B181BE498E5006C1FE5 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				63CDB3D71BE1D04400000410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CDB3D81BE1D04400000410 /* Build configuration list for PBXNativeTarget "KEIHappinessTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				63CDB3DA1BE1D04400000410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CDB3DB1BE1D04400000410 /* Build configuration list for PBXNativeTarget "KEIHappinessUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				63CDB3DD1BE1D04400000410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
